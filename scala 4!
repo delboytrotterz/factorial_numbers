@@ -1,0 +1,9 @@
+/*quick way to factorial 4!*/
+def factor_4(n:Int):Int = {
+  if (n == 1) {
+    return 1
+  }
+  n * factor_4(n-1)
+}
+
+factor_4(4)//this is factorial of 4! ie 4 times 3 times 2 times 1 = 24
